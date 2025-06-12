@@ -1,0 +1,63 @@
+students = [
+    {
+        "name": "Alice",
+        "age": 17,
+        "gender": "Female",
+        "address": {
+            "city": "Phnom Penh",
+            "district": "Chamkarmon"
+        },
+        "subjects": [
+            {"name": "Math", "score": 85},
+            {"name": "Physics", "score": 78},
+            {"name": "Biology", "score": 90}
+        ]
+    },
+    {
+        "name": "Sokha",
+        "age": 16,
+        "gender": "Male",
+        "address": {
+            "city": "Siem Reap",
+            "district": "Svay Dangkum"
+        },
+        "subjects": [
+            {"name": "English", "score": 75},
+            {"name": "Computer", "score": 88},
+            {"name": "Art", "score": 92}
+        ]
+    },
+    {
+        "name": "Dara",
+        "age": 18,
+        "gender": "Male",
+        "address": {
+            "city": "Battambang",
+            "district": "Battambang"
+        },
+        "subjects": [
+            {"name": "History", "score": 60},
+            {"name": "Geography", "score": 70},
+            {"name": "Math", "score": 80}
+        ]
+    }
+]
+
+# Q1.How many Male Students?
+for M in students:
+    if M["gender"]
+
+male_students = 0
+for s in students:
+    if s["gender"] == "Male":
+        male_students += 1
+print("Q1. male students:", male_students)
+# Q2.How many students learn in "Math"?
+
+
+# Q3.Cellulate  average score of Sokha
+# for item in students:
+#     print(item)
+# Q4.Sum total score of Dara
+
+# Q5. average of all studnets
